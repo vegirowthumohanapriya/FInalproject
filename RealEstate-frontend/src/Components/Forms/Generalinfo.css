@@ -1,0 +1,50 @@
+.main-container{
+    height: 100vh;
+    width: 100%;
+    border: 2px solid black;
+    display: flex;
+}
+.own{
+    width:315px;
+    height: 40px;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+.file{
+    width: 156px;
+}
+.posted{
+    width:315px;
+    height: 40px;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+.please{
+    width:315px;
+    height: 40px;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+.selec{
+    width:315px;
+    height: 40px;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+.plesasesel{
+    width:315px;
+    height: 40px;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+.but{
+    background-color: blue;
+    height:45px;
+    width:125px;
+    border-radius: 20px;
+    margin-bottom: 35px;
+}
+.container1{
+    margin: 10px;
+    padding: 10px;
+}

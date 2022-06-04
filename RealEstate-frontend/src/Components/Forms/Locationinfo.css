@@ -1,0 +1,40 @@
+.posby{
+    width:315px;
+    height: 40px;
+    background-color: azure;
+    border-radius: 10px;
+}
+.city{
+    width:315px;
+    height: 40px;
+    background-color: azure;
+    border-radius: 10px;
+}
+.pin{
+    width:315px;
+    height: 40px;
+    background-color: azure;
+    border-radius: 10px;
+}
+.homee{
+    background-color: blue;
+    height:45px;
+    width:500px;
+    border-radius: 20px;
+    margin-bottom: 35px;
+    margin-top: 300px;
+}
+
+    
+.sub-container{
+    height: 500px;
+    width: 500px;
+    margin-left: 500px;
+    margin-top: 150px;
+    display: flex;
+}
+.container1{
+
+    margin: 10px;
+    padding: 10px;
+}

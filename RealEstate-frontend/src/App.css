@@ -1,0 +1,218 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+html,body,#id,.App{
+  width: 100%;
+  height: 100%;
+  background-color:#ccebcf ;
+}
+.login-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 16% 32% 10% 34%;
+}
+.login {
+  border: none;
+  background: white;
+  border-radius: 8px;
+  text-align: center;
+}
+p.login-logo {
+  font-size: 2rem;
+  font-weight: 600;
+  /* padding: 1rem 0; */
+}
+p.login-text {
+  padding: 10px 25px;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+form.login-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+input {
+  padding: 7px 78px;
+  margin: 1.7% 0;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 1rem;
+}
+a.sign-in-button {
+  text-decoration: none;
+  border: 1px solid black;
+  background: #141482;
+  color: white;
+  padding: 7px 134px;
+  margin: 5% 1px;
+  border-radius: 5px;
+}
+
+.register-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.register {
+  display: flex;
+  flex-direction: column;
+}
+form.form-register {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.register {
+  display: flex;
+  flex-direction: column;
+  margin: 10% 35% 0 32%;
+  background: white;
+  border-radius: 10px;
+}
+button.sign-up-button {
+  margin: 3%;
+  padding: 7px 133px;
+  background: #0a0a67;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.homepage {
+  width: 100%;
+  height: 100%;
+  display: flex;
+
+}
+.homepage-static {
+  background-color: #ccebcf;
+  height: 100vh;
+  margin-left: 5px;
+  width: 17%;
+}
+
+p.static-logo {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 700;
+  padding: 10% 3%;
+}
+.static-text {
+  font-size: 1.5rem;
+  padding: 12% 10%;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+i{
+  margin-right: 2px;
+  cursor: pointer;
+}
+
+.dynamicpart {
+  width: 79%;
+}
+.nav {
+  width: 1115px;
+  display: flex;
+  justify-content: space-between;
+}
+
+p.nav-userid-text {
+  margin: 11px 0 0 13px;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.nav-user {
+  display: flex;
+  margin: 6px 0 1px 0;
+}
+i.fa-solid.fa-user {
+  padding: 5px;
+}
+i.fa-solid.fa-caret-down {
+  padding: 5px;
+  cursor: pointer;
+}
+.search-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3%;
+}
+.search {
+  border: 1px solid black;
+  margin-left: 5px;
+  border-radius: 24px;
+  background: white;
+}
+
+input.search-input {
+  border: none;
+  margin-left: 6px;
+}
+i.fa-solid.fa-magnifying-glass {
+  margin-right: 6px;
+}
+a.add-button {
+  border: 1px solid black;
+  background: #2d2dc2;
+  border-radius: 24px;
+  color: white;
+  padding: 1% 2%;
+}
+.basic-info {
+  display: flex;
+}
+.basic-info-right {
+  width: 80%;
+  margin-left: 2%;
+}
+.buttons {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+.buttons-main {
+  margin-top: 3%;
+  margin-bottom: 5%;
+}
+
+h3.button-head {
+  padding-left: 6%;
+  padding-bottom: 2%;
+}
+.button {
+  display: flex;
+}
+.buttons {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  background: white;
+  padding: 1.3rem 1%;
+  border-radius: 4rem;
+}
+.number {
+  background: #81c6dc;
+  border-radius: 50%;
+  width: 27px;
+  text-align: center;
+  margin: 2px;
+  margin-left: 4px;
+}
+.basic-form.main {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
